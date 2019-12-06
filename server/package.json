@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "nars": "1.0.0-alpha.6",
-    "nars-reactdayberlin-config": "../common",
     "react": "^16.12.0",
     "ws": "^7.1.2"
   },
