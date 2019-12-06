@@ -1,0 +1,3 @@
+ios/Pods
+ios/*.xcworkspace/*
+node_modules
