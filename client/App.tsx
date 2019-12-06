@@ -7,17 +7,19 @@ const RemoteComponent = Nars.createRemoteComponent(
   config
 );
 
-
-export default () => null;
-
 /*
-export default () => (
-        <RemoteComponent name="Example1" props={{
-          color1: "yellow",
-          color2: "purple"
-        }} />
-);
+export default () => null;
  */
+
+export default () => (
+  <RemoteComponent
+    name="Example1"
+    props={{
+      color1: "yellow",
+      color2: "purple"
+    }}
+  />
+);
 
 /*
 export default () => (
