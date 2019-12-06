@@ -6,7 +6,7 @@
     "start": "nodemon --watch './Example1.tsx' --watch './Example2.tsx' --watch './ProgressBar.tsx' --exec 'parcel build --target node index.tsx && node dist/index.js'"
   },
   "dependencies": {
-    "nars": "1.0.0-alpha.6",
+    "nars": "1.0.0-alpha.7",
     "react": "^16.12.0",
     "ws": "^7.1.2"
   },
