@@ -817,9 +817,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.0.0:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4:
   version "6.4.0"
@@ -1259,10 +1259,10 @@ browserslist@^4.0.0, browserslist@^4.1.0, browserslist@^4.6.0, browserslist@^4.8
     electron-to-chromium "^1.3.317"
     node-releases "^1.1.41"
 
-bs-platform@7.0.0-dev.1:
-  version "7.0.0-dev.1"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.0.0-dev.1.tgz#e9f2b05c68b16e325fc9a284ca529bb84fd5509b"
-  integrity sha512-nXxk3oUBvp2o0D8Qc2JOKNeeYNg/wPVYj+eu4vPbWzR/dbhfc4bRG/QkU6z6DuV1aiDzGnKIBY06azYPuw4a+g==
+bs-platform@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.0.0.tgz#6d1b0dd0d53f16f5b7fb2656ccae58c71ec988dc"
+  integrity sha512-3cPwrt/1hGjXuGS2HfVyd6oc6p/YpDOQIoLiFLRgrrB7/bnDNvbJn4XhO1PUyuRL4e7fc24R3xvA08BFDHZ6Gw==
 
 buffer-equal@0.0.1:
   version "0.0.1"
@@ -3647,13 +3647,13 @@ nars-common@1.0.0-alpha.2:
   resolved "https://registry.yarnpkg.com/nars-common/-/nars-common-1.0.0-alpha.2.tgz#4f6417396149d8d2ac8c72e0b7fa0f59c044de21"
   integrity sha512-NcuCtBWOA09aiEUBzbm3TuDjZk/fyzeL6wEviYVrmbILzMzW5Vv8F/W70P/BNj+RIczfmDjSDJD5aqHpdO4POQ==
 
-nars@1.0.0-alpha.6:
-  version "1.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/nars/-/nars-1.0.0-alpha.6.tgz#cf97eefec60de6320c63dab1c5472ac591a29399"
-  integrity sha512-VF1k1/UQGK80joogFCR0sWrjbdlySUcS2RIwV6bJFCmlhj0QUd4k6bzqTwvOS9vSqtNdCR3tQQBX4AspzdmpiQ==
+nars@1.0.0-alpha.7:
+  version "1.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/nars/-/nars-1.0.0-alpha.7.tgz#8cf4905a8ae19be85704abf36af3765b5ef57f81"
+  integrity sha512-YP/Lwy1t0N0TZGiLjI3Q823BiCbUng0IpXgnPaZTlcfs0450fPBSMHzKS6EiK35nz1tNTgA9U8hzb90CqU7jDA==
   dependencies:
     analytics-node "^3.4.0-beta.1"
-    bs-platform "7.0.0-dev.1"
+    bs-platform "7.0.0"
     gentype "^3.4.0"
     nars-common "1.0.0-alpha.2"
     node-machine-id "^1.1.12"
