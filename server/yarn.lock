@@ -1118,9 +1118,9 @@ bindings@^1.5.0:
     file-uri-to-path "1.0.0"
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
-  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+  version "4.11.9"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
+  integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
 
 boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
@@ -1259,10 +1259,10 @@ browserslist@^4.0.0, browserslist@^4.1.0, browserslist@^4.6.0, browserslist@^4.8
     electron-to-chromium "^1.3.317"
     node-releases "^1.1.41"
 
-bs-platform@7.0.0-dev.1:
-  version "7.0.0-dev.1"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.0.0-dev.1.tgz#e9f2b05c68b16e325fc9a284ca529bb84fd5509b"
-  integrity sha512-nXxk3oUBvp2o0D8Qc2JOKNeeYNg/wPVYj+eu4vPbWzR/dbhfc4bRG/QkU6z6DuV1aiDzGnKIBY06azYPuw4a+g==
+bs-platform@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.0.0.tgz#6d1b0dd0d53f16f5b7fb2656ccae58c71ec988dc"
+  integrity sha512-3cPwrt/1hGjXuGS2HfVyd6oc6p/YpDOQIoLiFLRgrrB7/bnDNvbJn4XhO1PUyuRL4e7fc24R3xvA08BFDHZ6Gw==
 
 buffer-equal@0.0.1:
   version "0.0.1"
@@ -2156,9 +2156,9 @@ electron-to-chromium@^1.3.317:
   integrity sha512-Tc8JQEfGQ1MzfSzI/bTlSr7btJv/FFO7Yh6tanqVmIWOuNCu6/D1MilIEgLtmWqIrsv+o4IjpLAhgMBr/ncNAA==
 
 elliptic@^6.0.0:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.2.tgz#05c5678d7173c049d8ca433552224a495d0e3762"
-  integrity sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
+  integrity sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==
   dependencies:
     bn.js "^4.4.0"
     brorand "^1.0.1"
@@ -3647,13 +3647,13 @@ nars-common@1.0.0-alpha.2:
   resolved "https://registry.yarnpkg.com/nars-common/-/nars-common-1.0.0-alpha.2.tgz#4f6417396149d8d2ac8c72e0b7fa0f59c044de21"
   integrity sha512-NcuCtBWOA09aiEUBzbm3TuDjZk/fyzeL6wEviYVrmbILzMzW5Vv8F/W70P/BNj+RIczfmDjSDJD5aqHpdO4POQ==
 
-nars@1.0.0-alpha.6:
-  version "1.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/nars/-/nars-1.0.0-alpha.6.tgz#cf97eefec60de6320c63dab1c5472ac591a29399"
-  integrity sha512-VF1k1/UQGK80joogFCR0sWrjbdlySUcS2RIwV6bJFCmlhj0QUd4k6bzqTwvOS9vSqtNdCR3tQQBX4AspzdmpiQ==
+nars@1.0.0-alpha.7:
+  version "1.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/nars/-/nars-1.0.0-alpha.7.tgz#8cf4905a8ae19be85704abf36af3765b5ef57f81"
+  integrity sha512-YP/Lwy1t0N0TZGiLjI3Q823BiCbUng0IpXgnPaZTlcfs0450fPBSMHzKS6EiK35nz1tNTgA9U8hzb90CqU7jDA==
   dependencies:
     analytics-node "^3.4.0-beta.1"
-    bs-platform "7.0.0-dev.1"
+    bs-platform "7.0.0"
     gentype "^3.4.0"
     nars-common "1.0.0-alpha.2"
     node-machine-id "^1.1.12"
